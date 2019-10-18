@@ -24,8 +24,14 @@ body{
 }
 
 /********************
-******** NAV ********
+******* HOME ********
 ********************/
+
+.home{
+    height: 100vh;
+}
+
+/* nav  */
 
 nav{
     display: flex;
@@ -87,6 +93,24 @@ nav{
 /********************
 ***** HOME PAGE *****
 ********************/
+.txt-content{
+    padding: 3.2rem 0.5rem;
+}
+
+
+.header{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.header-son{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+}
+
+
 .main-img{
     width: 100%;
     text-align: center;
@@ -94,11 +118,4 @@ nav{
 
 .main-img>img{
     width: 75%;
-}
-
-.header{
-    text-transform:uppercase;
-    text-align: center;
-    font-size: 1.5rem;
-    padding:2.5rem 0;
 }
