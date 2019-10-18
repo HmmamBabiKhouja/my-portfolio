@@ -1,0 +1,104 @@
+/********************
+*** REUSABLE CODE ***
+********************/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    user-select: none;
+    outline: none;
+    overflow-x: hidden;
+    width: 100vw;
+    max-width: 1200px;
+    font-family: "Lato",sans-serif;
+    color: #141c3a;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+/********************
+******** NAV ********
+********************/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px;
+    margin:0 auto;
+}
+
+/* logo  */
+
+.logo{
+    width: 100px;
+    margin-right: auto;
+}
+
+/* nav-links  */
+
+.nav-links{
+    display: none;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list>li:first-child{
+    margin-right: 16px;
+}
+
+.nav-list>li>a,
+.nav-list>li>a:visited,
+.nav-list>li>a:focus{
+    text-decoration: none;
+    color: #141c3a;
+    font-size: 1.2rem;
+}
+
+/* burger  */
+.burger {
+    cursor: pointer;
+    display: block;
+    margin: auto 0;
+}
+
+.burger-line {
+    height: 5px;
+    width: 33px;
+    margin: 0.6rem;
+    background-color:#141c3a ;
+}
+
+.main-img{
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/********************
+***** HOME PAGE *****
+********************/
+.main-img{
+    width: 100%;
+    text-align: center;
+}
+
+.main-img>img{
+    width: 75%;
+}
+
+.header{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    padding:2.5rem 0;
+}
