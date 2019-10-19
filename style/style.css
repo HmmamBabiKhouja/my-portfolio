@@ -88,10 +88,12 @@ nav{
     background-color:#141c3a ;
 }
 
-.main-img{
-    width: 45%;
+.person-img{
+    width: 85%;
     height: auto;
     margin: 0 auto;
+    margin-top: 0.7rem;
+    text-align: center;
 }
 
 /********************
@@ -105,6 +107,7 @@ nav{
 .header{
     text-align: center;
     font-size: 1.7rem;
+    margin-bottom:1.2rem;
 }
 
 .header-son{
@@ -113,36 +116,70 @@ nav{
     font-size: 1.2rem;
 }
 
-.person-img,
 .devices-img{
     width: 100%;
+    background-color:#ffffff;
     text-align: center;
+    margin-top: 0.7rem;
 }
 
 .person-img>img{
-    width: 72%;
+    width: 70%;
 }
 
+/********************
+*** ABOUT ME PAGE ***
+********************/
 .devices-img>img{
     width: 85%;
     margin: 0 auto;
     display: block;
 }
 
-/********************
-***** ABOUT ME PAGE *****
-********************/
-
-.info{
-    position: relative;
-    text-align: center;
-    height: 100%;
+.about-me{
     background-color:#FF4959;
     color: #ffffff;
 }
 
-.txt-info{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.info{
+    text-align: center;
+    position: relative;
+    top: 18%;
 }
+
+/********************
+****** MY WORK ******
+********************/
+.my-projects-container{
+    padding:2.2rem 0.7rem 0.7rem 1.5rem ;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #e6ecf8;
+    text-align: center;
+    margin:0 1rem;
+    padding:1.5rem 0.7rem;
+}
+
+.card:first-child{
+    border-radius: 5px 5px 0 0;
+}
+
+.card:last-child{
+    border-radius: 0 0 5px 5px;
+}
+
+.card>ion-icon{
+    font-size: 3.2rem;
+    margin: 0 auto;
+}
+
+
+
