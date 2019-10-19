@@ -27,7 +27,8 @@ body{
 ******* HOME ********
 ********************/
 
-.home{
+.home,
+.about-me{
     height: 100vh;
 }
 
@@ -43,7 +44,7 @@ nav{
 /* logo  */
 
 .logo{
-    width: 100px;
+    width: 95px;
     margin-right: auto;
 }
 
@@ -93,10 +94,10 @@ nav{
 /********************
 ***** HOME PAGE *****
 ********************/
-.txt-content{
-    padding: 3.2rem 0.5rem;
-}
 
+.txt-content{
+    padding: 3.5rem 0.5rem;
+}
 
 .header{
     text-transform:uppercase;
@@ -110,12 +111,24 @@ nav{
     font-weight: 400;
 }
 
-
-.main-img{
+.person-img,
+.devices-img{
     width: 100%;
     text-align: center;
 }
 
-.main-img>img{
-    width: 75%;
+.person-img>img{
+    width: 72%;
+}
+
+.devices-img>img{
+    width: 92%;
+}
+
+/********************
+***** ABOUT ME PAGE *****
+********************/
+
+.info{
+    
 }
