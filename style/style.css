@@ -103,8 +103,11 @@ nav{
     padding: 2.2rem 0.5rem 3.5rem 0.5rem;
 }
 
-.header{
+.headers{
     text-align: center;
+}
+
+.header{
     font-size: 1.7rem;
     margin-bottom:1.2rem;
 }
@@ -150,7 +153,13 @@ nav{
 ****** MY WORK ******
 ********************/
 .my-projects-container{
-    padding:2.2rem 0.7rem 0.7rem 1.5rem ;
+    padding:2rem 0.7rem 0.7rem 0 ;
+    margin-bottom: 2rem;
+}
+
+.my-projects-container>.headers{
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
 }
 
 .cards-container{
@@ -163,8 +172,7 @@ nav{
     flex-direction: column;
     border: 0.5px solid #e6ecf8;
     text-align: center;
-    margin:0 1rem;
-    padding:1.5rem 0.7rem;
+    padding:2rem 3rem;
 }
 
 .card:first-child{
@@ -175,10 +183,18 @@ nav{
     border-radius: 0 0 5px 5px;
 }
 
-.card>ion-icon{
-    font-size: 3.2rem;
+.card-icon{
+    font-size: 3.6rem;
     margin: 0 auto;
+    margin-bottom: 1.8rem;
+    color: #FF4959;
 }
 
+.card-header{
+    margin:1.5rem 0;
+    font-size: 1.5rem;
+}
 
-
+.card-desc{
+    margin-bottom:1rem;
+}
