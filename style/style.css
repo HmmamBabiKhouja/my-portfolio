@@ -30,8 +30,6 @@ body{
 ******* HOME ********
 ********************/
 
-
-
 /* nav  */
 
 nav{
@@ -44,36 +42,36 @@ nav{
 /* logo  */
 
 .logo{
-    width:72px;
+    width: 75px;
     margin-right: auto;
 }
 
 /* nav-links  */
 
-.nav-links{
+.nav-list{
     display: none;
     width: 100%;
     padding: 1rem;
 }
 
-.nav-links-active{
+.nav-list-active{
     display: block;
 }
 
-.nav-list{
+.nav-links{
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav-list>li:first-child{
+.nav-link:first-child{
     margin: 0 16px 16px 0;
 }
 
-.nav-list>li>a,
-.nav-list>li>a:visited,
-.nav-list>li>a:focus{
+.nav-link>a,
+.nav-link>a:visited,
+.nav-link>a:focus{
     text-decoration: none;
     color: #141c3a;
     font-size: 1.2rem;
@@ -108,6 +106,8 @@ nav{
     transform: translateY(-12px) rotate(-135deg);
 }
 
+/* home  */
+
 .person-img{
     width: 77%;
     height: auto;
@@ -129,7 +129,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     width: 55%;
-    margin: 2rem auto;
+    margin: 2rem auto 2.5rem auto;
 }
 
 .social-icon{
@@ -221,7 +221,6 @@ nav{
 .cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    /* add shadow effects on the cards container <!>*/
 }
 
 .card{
