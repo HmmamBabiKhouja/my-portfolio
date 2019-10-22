@@ -12,18 +12,18 @@
         <section class="home">
             <nav>
                 <a href="https://pedantic-villani-8bde75.netlify.com/"><img src="img/logo.svg" class="logo" alt="logo" width="80px"></a>
-                <div class="nav-links">
-                    <ul class="nav-list">
-                        <li><a href="">About Me</a></li>
-                        <li><a href="">My Projects</a></li>
-                    </ul>
-                </div>
-                <div class="burger">
-                    <div class="burger-line"></div>
-                    <div class="burger-line"></div>
-                    <div class="burger-line"></div>
+                <div class="burger" id="burger">
+                    <div class="burger-line line-one"></div>
+                    <div class="burger-line line-two"></div>
+                    <div class="burger-line line-three"></div>
                 </div>
             </nav>
+            <div class="nav-links">
+                <ul class="nav-list">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-projects">My Projects</a></li>
+                </ul>
+            </div>
             <div class="txt-content">
                 <h2 class="headers header">NOTHING WILL CHANGE UNLESS YOU DO</h2>
                 <h2 class="headers header-son">Don't Change The World, Change Yourself </h2>
@@ -48,7 +48,7 @@
                 </ul>
             </div>
         </section>
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <div class="devices-img">
                 <img src="img/hero.svg" alt="">
             </div>
@@ -70,7 +70,7 @@
                 </div>
             </div>
         </section>
-        <section class="my-project">
+        <section class="my-projects" id="my-projects">
             <div class="my-projects-container">
                 <h2 class="headers">My Projects</h2>
                 <div class="container">
@@ -97,6 +97,7 @@
                 </div>
             </div>
         </section>
+    <script src="code/burger.js"></script>    
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 </html>

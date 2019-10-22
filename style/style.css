@@ -55,15 +55,23 @@ nav{
 
 .nav-links{
     display: none;
+    width: 100%;
+    padding: 1rem;
+}
+
+.nav-links-active{
+    display: block;
 }
 
 .nav-list{
     list-style: none;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-list>li:first-child{
-    margin-right: 16px;
+    margin: 0 16px 16px 0;
 }
 
 .nav-list>li>a,
@@ -82,17 +90,31 @@ nav{
 }
 
 .burger-line {
+    display: block;
+    background-color:#141c3a ;
     height: 5px;
     width: 33px;
-    margin: 0.6rem;
-    background-color:#141c3a ;
+    margin: 7px 0;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+.line-one-acitve{
+    transform: translateY(12px) rotate(135deg);
+}
+
+.line-two-acitve{
+    transform: scale(0);
+}
+
+.line-three-acitve{
+    transform: translateY(-12px) rotate(-135deg);
 }
 
 .person-img{
     width: 75%;
     height: auto;
     margin: 0.7rem auto 1rem auto;
-    
     text-align: center;
 }
 
