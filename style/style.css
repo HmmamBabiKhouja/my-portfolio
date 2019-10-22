@@ -210,7 +210,6 @@ nav{
     border: 0.5px solid #e6ecf8;
     text-align: center;
     padding:2rem 3rem;
-
 }
 
 .card:first-child{
@@ -225,17 +224,27 @@ nav{
 .card-icon{
     font-size: 3.6rem;
     margin: 0 auto;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.4rem;
     color: #FF4959;
 }
 
 .card-header{
-    margin:1.5rem 0;
+    margin-bottom:1.4rem;
     font-size: 1.5rem;
 }
 
 .card-desc{
-    margin-bottom:1rem;
+    margin-bottom:1.4rem;
 }
 
+.visit-buttons{
+    background-color:#FF4959;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius:3px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 7px 20px;
+}
 
