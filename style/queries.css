@@ -1,4 +1,13 @@
-@media only screen and (min-width:768px){
+/* tablets-portrait */
+@media only screen and (min-width:401px){
+    .txt-content{
+        padding: 1.2rem 0;
+    }
+
+    .person-img>img{
+        width: 62%;
+    }
+
     .card:first-child{
         border-radius: 6px 0 0 0;
     }
@@ -14,11 +23,74 @@
 
 }
 
-@media only screen and (min-width:1366px){
+/* tablets-landscape */
+@media only screen and (min-width:769px){
 
+/********************
+******* HOME ********
+********************/
+
+    html{
+        font-size: 18px;
+    }
+    
     body{
         text-align: center;
         margin: 0 auto;
+    }
+
+    .home{
+        display: grid;
+        grid-template-columns:auto 1fr;
+        grid-template-rows:auto auto; 
+        margin: 2.2rem auto;
+    }
+
+    .txt-content{
+        grid-row-start:0;
+        grid-row-end:1;
+        grid-column-start:1;
+        grid-column-end:2;
+        align-self: end;
+    }
+
+    .header{
+        margin-bottom: 0.5rem;
+    }
+
+    .person-img{
+        margin-right: auto;
+        grid-row-start: span 2;
+        grid-column-start:0;
+        grid-column-end:1;
+        margin-left: 0;
+    }
+
+    .person-img>img{
+        width:150%;
+    }
+
+    .social-block{
+        display: inline;
+        grid-row-start:1;
+        grid-row-end:2;
+        grid-column-start:1;
+        grid-column-end:2;    }
+
+    .social-icon{
+        font-size: 2.4rem;
+    }
+
+}
+
+/* laptops */
+@media only screen and (min-width:1025px){
+    .card:nth-child(2){
+        border-radius: 0 0 0 0;
+    }
+
+    .card:nth-child(3){
+        border-radius: 0 6px 0 0;
     }
 
 }
