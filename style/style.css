@@ -207,6 +207,14 @@ nav{
     line-height:90%;
 }
 
+.eng-quran-verse:before,
+.eng-quran-verse:after,
+.ar-quran-verse:before,
+.ar-quran-verse:after{
+    content:"*";
+    font-size: 2rem;
+}
+
 /********************
 ****** MY WORK ******
 ********************/
