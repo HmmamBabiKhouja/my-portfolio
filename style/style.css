@@ -130,8 +130,9 @@ nav{
 
 /* mid-home */
 
-.txt-content{
+.content-headers{
     flex: 1.5;
+    margin-top: 0.6rem;
 }
 
 .headers{
@@ -153,7 +154,7 @@ nav{
     width: 100%;
     text-align: center;
     flex: 3;
-    margin-top:0.4rem;
+    margin-top:1.6rem;
 }
 
 .person-img>img{
@@ -166,7 +167,7 @@ nav{
     width: 100%;
     text-align: center;
     flex:1;
-    margin-top: 0.6rem;
+    position: relative;
 }
 
 .social{
@@ -176,6 +177,10 @@ nav{
     align-items: center;
     width: 55%;
     margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .social-icon{
@@ -242,8 +247,7 @@ nav{
 
 .cards-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    /* add shadow effects on the cards container <!>*/
+    grid-template-columns: repeat(1,1fr);
 }
 
 .card{
@@ -254,11 +258,11 @@ nav{
     padding:2rem 3rem;
 }
 
-.card:first-child{
+.card:nth-child(1){
     border-radius: 6px 6px 0 0;
 }
 
-.card:last-child{
+.card:nth-child(3){
     box-shadow: 0 15px 15px -5px #e6ecf8;
     border-radius: 0 0 6px 6px;
 }

@@ -1,0 +1,126 @@
+@media only screen and (min-width:768px){
+    html{
+        font-size: 17px;
+    }
+
+    .container{
+        width: 94%;
+    }
+
+    .person-img{
+        margin-top:0;
+    }            
+
+    .person-img>img{
+        width: 50%;
+    }
+
+    .devices-img>img{
+        width: 60%;
+    }    
+
+    .eng-quran-verse,
+    .ar-quran-verse{
+        margin-bottom:1.4rem;
+    }
+
+    .cards-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .card:nth-child(1){
+        border-radius: 6px 0 0 0;
+    }
+
+    .card:nth-child(2){
+        border-radius: 0 6px 0 0;
+    }
+
+    .card:nth-child(3){
+        border-radius: 0 0 0 6px;
+    }
+
+    /* .card:nth-child(4){
+        border-radius: 0 0 6px 0;
+        box-shadow: 0 15px 15px -5px #e6ecf8;
+    } */
+
+}
+
+
+
+@media only screen and (min-width:1024px){
+    html{
+        font-size: 18px;
+    }
+
+    .home-center{
+        display:grid;
+        grid-template-rows:1fr 1fr;
+        grid-template-columns:1.5fr 1fr;
+    }
+
+    .person-img{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        align-self: center;
+    }
+
+    .person-img>img{
+        width: 88%;
+    }
+
+    .devices-img>img{
+        width: 45%;
+    }  
+
+    .content-headers{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        align-self: end;
+    }
+
+    .social-block{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        align-self: start;
+    }
+
+    .social{
+        width: 65%;
+        margin-top: 3rem;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform:translate(0,0);
+    }
+
+    .cards-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+   
+    .card:nth-child(1){
+        border-radius: 6px 0 0 6px;
+        box-shadow: 0 15px 15px -5px #e6ecf8;
+    }
+
+    .card:nth-child(2){
+        border-radius: 0 0 0 0;
+        box-shadow: 0 15px 15px -5px #e6ecf8;
+    }
+    
+    .card:nth-child(3){
+        border-radius: 0 6px 6px 0;
+        box-shadow: 0 15px 15px -5px #e6ecf8;
+    }
+
+}
+
+
+@media only  screen and (min-width:1366px){}
