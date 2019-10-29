@@ -4,7 +4,7 @@
     }
 
     .container{
-        width: 94%;
+        width: 93%;
     }
 
     .person-img{
@@ -54,7 +54,7 @@
         font-size: 18px;
     }
 
-    .home-center{
+    header{
         display:grid;
         grid-template-rows:1fr 1fr;
         grid-template-columns:1.5fr 1fr;
@@ -69,14 +69,14 @@
     }
 
     .person-img>img{
-        width: 88%;
+        width: 84%;
     }
 
     .devices-img>img{
         width: 45%;
     }  
 
-    .content-headers{
+    .headers-block{
         grid-row-start: 1;
         grid-row-end: 2;
         grid-column-start: 2;
@@ -104,7 +104,7 @@
     .cards-container{
         grid-template-columns: repeat(3,1fr);
     }
-   
+
     .card:nth-child(1){
         border-radius: 6px 0 0 6px;
         box-shadow: 0 15px 15px -5px #e6ecf8;
