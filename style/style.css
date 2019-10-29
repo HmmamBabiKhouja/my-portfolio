@@ -16,7 +16,6 @@ body{
     outline: none;
     overflow-x: hidden;
     width: 100vw;
-    max-width: 1200px;
     font-family: "Lato",sans-serif;
     color: #141c3a;
 }
@@ -46,7 +45,7 @@ body{
     flex:1;
     display: flex;
     flex-direction: column;
-    margin-top:1.5rem;
+    margin-top:0.6rem;
 }
 
 /* nav  */
@@ -131,7 +130,7 @@ nav{
 /* mid-home */
 
 .content-headers{
-    flex: 1.5;
+    flex: 1.4;
     margin-top: 0.6rem;
 }
 
@@ -151,14 +150,14 @@ nav{
 }
 
 .person-img{
-    width: 100%;
+    /* width: 100%; */
+    position: relative;
     text-align: center;
     flex: 3;
-    margin-top:1.6rem;
 }
 
 .person-img>img{
-    width: 84%;
+    width: 68%;
 }
 
 /* social-block  */
@@ -168,6 +167,8 @@ nav{
     text-align: center;
     flex:1;
     position: relative;
+    justify-self: start;
+    margin-top:0.4rem;
 }
 
 .social{
@@ -177,10 +178,6 @@ nav{
     align-items: center;
     width: 55%;
     margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 .social-icon{
@@ -199,7 +196,7 @@ nav{
 }
 
 .devices-img>img{
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     display: block;
 }
