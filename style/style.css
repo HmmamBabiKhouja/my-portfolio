@@ -51,6 +51,7 @@ header{
     display: flex;
     flex-direction: column;
     margin-top:1.5rem;
+    justify-content: space-around;
 }
 
 /* nav  */
@@ -134,7 +135,6 @@ nav{
 /* mid-home */
 
 .headers-block{
-    flex: 1.5;
     margin-top: 0.6rem;
 }
 
@@ -156,8 +156,7 @@ nav{
 .person-img{
     width: 100%;
     text-align: center;
-    flex: 3;
-    margin-top:1.6rem;
+
 }
 
 .person-img>img{
@@ -169,21 +168,16 @@ nav{
 .social-block{
     width: 100%;
     text-align: center;
-    flex:1;
     position: relative;
+    bottom: 2rem;
 }
 
 .social{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 55%;
     margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 .social-icon{
@@ -210,13 +204,24 @@ nav{
 .about-me{
     background-color:#ff3b4b;
     color: #ffffff;
+    display: flex;
+    
+    flex-direction: column;
 }
 
 main{
-    text-align: center;
+    display: block;
     position: relative;
-    top: 6%;
+    flex: 1;
 }
+
+.main-disc{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
 
 .main-header{
     font-size: 1.7rem;

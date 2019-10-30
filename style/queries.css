@@ -1,6 +1,11 @@
-@media only screen and (min-width:768px){
+@media only screen and (min-width:400px){
     html{
         font-size: 17px;
+    }
+}
+@media only screen and (min-width:768px){
+    html{
+        font-size: 18px;
     }
 
     .container{
@@ -10,10 +15,6 @@
     .person-img{
         margin-top:0;
     }            
-
-    .person-img>img{
-        width: 50%;
-    }
 
     .devices-img>img{
         width: 60%;
@@ -51,7 +52,7 @@
 
 @media only screen and (min-width:1024px){
     html{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     header{
@@ -123,4 +124,10 @@
 }
 
 
-@media only  screen and (min-width:1366px){}
+@media only  screen and (min-width:1366px){
+
+    .devices-img>img{
+        width: 35%;
+    }  
+
+}
