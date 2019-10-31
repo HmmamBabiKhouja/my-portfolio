@@ -1,10 +1,20 @@
-@media only screen and (min-width:768px){
+@media only screen and (min-width:375px){
     html{
         font-size: 17px;
     }
+}
+
+@media only screen and (min-width:768px){
+    html{
+        font-size: 19px;
+    }
 
     .container{
-        width: 94%;
+        width: 93%;
+    }
+
+    .nav-links{
+        margin-top:1rem ;
     }
 
     .content-headers{
@@ -15,10 +25,6 @@
     .person-img{
         margin-top:0;
     }            
-
-    .person-img>img{
-        width: 48%;
-    }
 
     .devices-img>img{
         width: 60%;
@@ -62,29 +68,10 @@
 @media only screen and (min-width:1024px){
     
     html{
-        font-size: 18px;
+        font-size:20px;
     }
 
-    .nav-list{
-        position: relative;
-        transform: translate(0);
-    }
-
-    .nav-links{
-        flex-direction: row;
-        width: fit-content;
-        margin-left: auto;
-        margin-right: 1rem;
-    }
-
-    .nav-link:first-child{
-        margin:0 24px 0 0;
-    }
-    .burger{
-        display: none;
-    }
-
-    .home-center{
+    header{
         display:grid;
         grid-template-rows:1fr 1fr;
         grid-template-columns:1.5fr 1fr;
@@ -99,14 +86,14 @@
     }
 
     .person-img>img{
-        width: 82%;
+        width: 84%;
     }
 
     .devices-img>img{
         width: 40%;
     }  
 
-    .content-headers{
+    .headers-block{
         grid-row-start: 1;
         grid-row-end: 2;
         grid-column-start: 2;
@@ -135,7 +122,7 @@
         grid-template-columns: repeat(3,1fr);
     }
 
-    .card:nth-child(1){
+    .card:nth-child(d1){
         border-radius: 6px 0 0 6px;
         box-shadow: 0 15px 15px -5px #e6ecf8;
     }
@@ -155,15 +142,12 @@
 
 
 @media only  screen and (min-width:1366px){
-
-    .person-img{
-        width: fit-content;
-        margin-right: auto;
-    }
-    .person-img>img{
-        width: 72%;
+    html{
+        font-size: 21px;
     }
 
-
+    .devices-img>img{
+        width: 35%;
+    }  
 
 }

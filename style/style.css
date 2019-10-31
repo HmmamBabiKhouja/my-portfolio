@@ -5,6 +5,10 @@
 REUSABLE & COMMONCODE
 ********************/
 
+html{
+    font-size: 15px;
+}
+
 *{
     margin:0;
     padding:0;
@@ -41,11 +45,16 @@ body{
     flex-direction: column;
 }
 
-.home-center{
+header{
     flex:1;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     margin-top:0.6rem;
+=======
+    margin-top:1.5rem;
+    justify-content: space-around;
+>>>>>>> fixy
 }
 
 /* nav  */
@@ -55,7 +64,6 @@ nav{
     justify-content: space-between;
     margin:0 auto;
 }
-
 
 .logo{
     width:72px;
@@ -129,8 +137,12 @@ nav{
 
 /* mid-home */
 
+<<<<<<< HEAD
 .content-headers{
     flex: 1.4;
+=======
+.headers-block{
+>>>>>>> fixy
     margin-top: 0.6rem;
 }
 
@@ -138,12 +150,12 @@ nav{
     text-align: center;
 }
 
-.header{
+.header-header-big{
     font-size: 1.7rem;
     margin-bottom:1.2rem;
 }
 
-.header-son{
+.header-header-small{
     text-align: center;
     font-weight: 400;
     font-size: 1.1rem;
@@ -153,7 +165,11 @@ nav{
     /* width: 100%; */
     position: relative;
     text-align: center;
+<<<<<<< HEAD
     flex: 3;
+=======
+
+>>>>>>> fixy
 }
 
 .person-img>img{
@@ -165,17 +181,19 @@ nav{
 .social-block{
     width: 100%;
     text-align: center;
-    flex:1;
     position: relative;
+<<<<<<< HEAD
     justify-self: start;
     margin-top:0.4rem;
+=======
+    bottom: 2rem;
+>>>>>>> fixy
 }
 
 .social{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 55%;
     margin: 0 auto;
 }
@@ -204,25 +222,36 @@ nav{
 .about-me{
     background-color:#ff3b4b;
     color: #ffffff;
+    display: flex;
+    
+    flex-direction: column;
 }
 
-.about-me-header{
-    font-size: 1.7rem;
-    margin-bottom:2.5rem; 
-}
-
-.info{
-    text-align: center;
+main{
+    display: block;
     position: relative;
-    top: 10%;
+    flex: 1;
+}
+
+.main-disc{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.main-header{
+    font-size: 1.7rem;
+    margin-bottom:1.8rem; 
 }
 
 .eng-quran-verse,
 .ar-quran-verse{
     font-family: "Amiri",serif;
     font-size: 1.4rem;
-    line-height: 110%;
-    margin-bottom:0.8rem;
+    line-height: 120%;
+    margin-bottom:1rem;
 }
 
 .ar-quran-verse{
