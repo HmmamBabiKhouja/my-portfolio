@@ -49,12 +49,8 @@ header{
     flex:1;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    margin-top:0.6rem;
-=======
     margin-top:1.5rem;
     justify-content: space-around;
->>>>>>> fixy
 }
 
 /* nav  */
@@ -137,12 +133,7 @@ nav{
 
 /* mid-home */
 
-<<<<<<< HEAD
-.content-headers{
-    flex: 1.4;
-=======
 .headers-block{
->>>>>>> fixy
     margin-top: 0.6rem;
 }
 
@@ -165,11 +156,6 @@ nav{
     /* width: 100%; */
     position: relative;
     text-align: center;
-<<<<<<< HEAD
-    flex: 3;
-=======
-
->>>>>>> fixy
 }
 
 .person-img>img{
@@ -182,12 +168,7 @@ nav{
     width: 100%;
     text-align: center;
     position: relative;
-<<<<<<< HEAD
-    justify-self: start;
-    margin-top:0.4rem;
-=======
     bottom: 2rem;
->>>>>>> fixy
 }
 
 .social{
