@@ -122,7 +122,7 @@
         grid-template-columns: repeat(3,1fr);
     }
 
-    .card:nth-child(d1){
+    .card:nth-child(1){
         border-radius: 6px 0 0 6px;
         box-shadow: 0 15px 15px -5px #e6ecf8;
     }
@@ -137,17 +137,24 @@
         box-shadow: 0 15px 15px -5px #e6ecf8;
     }
 
-    
+    .card-icon{
+        font-size: 3rem;
+    }
 }
 
 
-@media only  screen and (min-width:1366px){
+@media only screen and (min-width:1365px){
     html{
         font-size: 21px;
     }
-
+    
+    .person-img>img{
+        width: 70%;
+    }
+    
     .devices-img>img{
         width: 35%;
     }  
+    
 
 }
