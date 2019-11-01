@@ -2,19 +2,40 @@
 
     body{
         background-color: var(--body-dark);
-        color: var(--white);
+        color: var(--white-dark);
+        box-shadow:#eeeeee;
     }
-    
+
+    .burger-line{
+        background-color: var(--white-dark) ;
+    }
+
+    .nav-link>a,
+    .nav-link>a:visited,
+    .nav-link>a:focus{
+        color: var(--white-dark) ;
+    }
+
     .devices-img{
         background-color: var(--body-dark);
     }
- 
+
     .about-me{
-        color: var(--font-light);
+        background-color:var(--green-dark);
+        color: var(--white-dark);
     }
 
     .social-icon{
-        color: var(--white);
+        color: var(--white-dark);
+    }
+
+
+    .card-icon{
+        color:var(--green-dark);
+    }
+
+    .visit-buttons{
+        background-color:var(--green-dark) ;
     }
 
 }

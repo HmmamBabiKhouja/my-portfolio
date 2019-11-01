@@ -1,3 +1,10 @@
+/*
+#eeeeee
+#4ecca3
+#393e46
+#232931
+*/
+
 /********************
 REUSABLE & COMMONCODE
 ********************/
@@ -19,14 +26,16 @@ body{
     width: 100vw;
     font-family: "Lato",sans-serif;
     background-color:var(--white) ;
-    color: var(--font-light);
+    color: var(--blue-berry);
 }
 
 :root{
-    --sunrise-red: #FF4959;
-    --body-dark:#15202b;
+    --green-dark:#4ecca3;
+    --sunrise-red: #FF4545;
+    --body-dark:#232931;
     --white:#ffffff;
-    --font-light: #141c3a;
+    --white-dark:#eeeeee;
+    --blue-berry: #141c3a;
 }
 
 .container {
@@ -104,7 +113,7 @@ nav{
 .nav-link>a:visited,
 .nav-link>a:focus{
     text-decoration: none;
-    color: var(--font-light);
+    color: var(--blue-berry);
     font-size: 1.2rem;
 }
 
@@ -116,7 +125,7 @@ nav{
 
 .burger-line {
     display: block;
-    background-color:var(--font-light) ;
+    background-color:var(--blue-berry) ;
     height: 5px;
     width: 33px;
     margin: 7px 0;
@@ -185,7 +194,7 @@ nav{
 }
 
 .social-icon{
-    color: var(--font-light);
+    color: var(--blue-berry);
     font-size: 2rem;
 }
 
