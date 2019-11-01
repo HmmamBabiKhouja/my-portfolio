@@ -1,3 +1,20 @@
+@media (prefers-color-scheme:dark){
+
+    body{
+        background-color: var(--body-dark);
+        color: var(--white);
+    }
+    
+    .devices-img{
+        background-color: var(--body-dark);
+    }
+ 
+    .about-me{
+        color: var(--font-light);
+    }
+
+}
+
 @media only screen and (min-width:375px){
     html{
         font-size: 17px;
@@ -62,8 +79,6 @@
     } */
 
 }
-
-
 
 @media only screen and (min-width:1024px){
     
