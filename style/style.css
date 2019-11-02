@@ -1,9 +1,3 @@
-/*
-#eeeeee
-#4ecca3
-#393e46
-#232931
-*/
 
 /********************
 REUSABLE & COMMONCODE
@@ -30,7 +24,7 @@ body{
 }
 
 :root{
-    --green-dark:#4ecca3;
+    --sunrise-red-dark:#ff6767;
     --sunrise-red-light: #FF4545;
     --body-dark:#232931;
     --white:#ffffff;

@@ -21,7 +21,7 @@
     }
 
     .about-me{
-        background-color:var(--green-dark);
+        background-color:var(--sunrise-red-dark);
         color: var(--white-dark);
     }
 
@@ -31,11 +31,11 @@
 
 
     .card-icon{
-        color:var(--green-dark);
+        color:var(--sunrise-red-dark);
     }
 
     .visit-buttons{
-        background-color:var(--green-dark) ;
+        background-color:var(--sunrise-red-dark) ;
     }
 
 }
