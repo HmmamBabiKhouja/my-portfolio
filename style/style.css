@@ -75,8 +75,12 @@ nav{
 }
 
 .logo{
-    width:72px;
     margin-right: auto;
+}
+
+.logo>img,
+.logo>source{
+    width:72px;
     margin: 0.8rem;
 }
 
