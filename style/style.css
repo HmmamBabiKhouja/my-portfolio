@@ -5,6 +5,17 @@ REUSABLE & COMMONCODE
 
 html{
     font-size: 15px;
+    --background-color:#ffffff;
+    --font-color:#141c3a;
+    --main-color:#ff4545;
+    --white:#ffffff;
+}
+
+html[data-theme="dark"]{
+    --background-color:#232931;
+    --font-color:#eeeeee;
+    --main-color:#ff6767;
+    --white:#eeeeee;
 }
 
 *{
@@ -19,17 +30,8 @@ body{
     overflow-x: hidden;
     width: 100vw;
     font-family: "Lato",sans-serif;
-    background-color:var(--white) ;
-    color: var(--blue-berry);
-}
-
-:root{
-    --sunrise-red-dark:#ff6767;
-    --sunrise-red-light: #FF4545;
-    --body-dark:#232931;
-    --white:#ffffff;
-    --white-dark:#eeeeee;
-    --blue-berry: #141c3a;
+    background-color:var(--background-color) ;
+    color: var(--font-color);
 }
 
 .container {
@@ -103,16 +105,22 @@ nav{
     align-items: center;
 }
 
-.nav-link:first-child{
-    margin: 0 0 16px 0;
+.nav-link{
+    margin: 0 0 0.6rem 0;
 }
 
 .nav-link>a,
 .nav-link>a:visited,
 .nav-link>a:focus{
     text-decoration: none;
-    color: var(--blue-berry);
-    font-size: 1.2rem;
+    color: var(--font-color);
+    font-size: 1.1rem;
+}
+
+.theme-switcher-button{
+    cursor: pointer;
+    margin: auto 0;
+    margin-right: 1.2rem;
 }
 
 .burger {
@@ -123,7 +131,7 @@ nav{
 
 .burger-line {
     display: block;
-    background-color:var(--blue-berry) ;
+    background-color:var(--font-color) ;
     height: 5px;
     width: 33px;
     margin: 7px 0;
@@ -164,13 +172,13 @@ nav{
     font-size: 1.1rem;
 }
 
-.person-img{
+.person-father{
     /* width: 100%; */
     position: relative;
     text-align: center;
 }
 
-.person-img>img{
+.person-father>img{
     width: 68%;
 }
 
@@ -191,8 +199,9 @@ nav{
     margin: 0 auto;
 }
 
-.social-icon{
-    color: var(--blue-berry);
+.social-icon,
+.theme-switcher-button{
+    color: var(--font-color);
     font-size: 2rem;
 }
 
@@ -200,20 +209,20 @@ nav{
 *** ABOUT ME PAGE ***
 ********************/
 
-.devices-img{
+.devices-father{
     width: 100%;
-    background-color:var(--white);
+    background-color:var(--background-color);
     text-align: center;
 }
 
-.devices-img>img{
+.devices-father>img{
     width: 75%;
     margin: 0 auto;
     display: block;
 }
 
 .about-me{
-    background-color:var(--sunrise-red-light);
+    background-color:var(--main-color);
     color: var(--white);
     display: flex;
     flex-direction: column;
@@ -290,7 +299,7 @@ main{
     font-size: 3.6rem;
     margin: 0 auto;
     margin-bottom: 1.4rem;
-    color: var(--sunrise-red-light);
+    color: var(--main-color);
 }
 
 .card-header{
@@ -303,7 +312,7 @@ main{
 }
 
 .visit-buttons{
-    background-color:var(--sunrise-red-light);
+    background-color:var(--main-color);
     color: var(--white);
     text-decoration: none;
     font-size: 1.3rem;

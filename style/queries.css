@@ -1,13 +1,13 @@
 @media (prefers-color-scheme:dark){
-
+/* 
     body{
-        background-color: var(--body-dark);
-        color: var(--white-dark);
+        background-color: var(--background-color);
+        color: var(--font-color);
         box-shadow:#eeeeee;
     }
 
     .burger-line{
-        background-color: var(--white-dark) ;
+        background-color: var(--font) ;
     }
 
     .nav-link>a,
@@ -16,7 +16,7 @@
         color: var(--white-dark) ;
     }
 
-    .devices-img{
+    .devices-father{
         background-color: var(--body-dark);
     }
 
@@ -37,7 +37,7 @@
     .visit-buttons{
         background-color:var(--sunrise-red-dark) ;
     }
-
+ */
 }
 
 @media only screen and (min-width:375px){
@@ -64,11 +64,11 @@
         margin-top: 0.6rem;
     }
 
-    .person-img{
+    .person-father{
         margin-top:0;
     }            
 
-    .devices-img>img{
+    .devices-father>img{
         width: 60%;
     }    
 
@@ -125,8 +125,8 @@
         margin-top: 2rem;
     }
 
-    .nav-link:first-child{
-        margin: 0 16px 0 0;
+    .nav-link{
+        margin: 0 1.4rem 0 0;
     }
 
     header{
@@ -135,7 +135,7 @@
         grid-template-columns:1.5fr 1fr;
     }
 
-    .person-img{
+    .person-father{
         grid-row-start: 1;
         grid-row-end: 3;
         grid-column-start: 1;
@@ -143,11 +143,11 @@
         align-self: center;
     }
 
-    .person-img>img{
+    .person-father>img{
         width: 84%;
     }
 
-    .devices-img>img{
+    .devices-father>img{
         width: 40%;
     }  
 
@@ -206,11 +206,11 @@
         font-size: 21px;
     }
     
-    .person-img>img{
+    .person-father>img{
         width: 70%;
     }
     
-    .devices-img>img{
+    .devices-father>img{
         width: 35%;
     }  
     

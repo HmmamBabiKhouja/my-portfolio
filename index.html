@@ -11,11 +11,12 @@
         <title>Hmmam Babi Khouja</title>
     </head>
     <body>
+        <script src="code/theme-switcher-code.js"></script>
         <section class="home">
             <nav class="container">
                 <a href="https://pedantic-villani-8bde75.netlify.com/">
                     <picture class="logo" alt="logo">
-                        <source srcset="img/logo-dark.svg" media="(prefers-color-scheme:dark)"> 
+                        <source srcset="img/logo-dark.svg" media="(prefers-color-scheme:dark)">
                         <img src="img/logo.svg" alt="my logo" >
                     </picture>
                 </a>
@@ -27,6 +28,7 @@
                         </ul>
                     </div>
                 </div>
+                <ion-icon id="theme-switcher-button" class="theme-switcher-button" name="contrast"></ion-icon>
                 <div class="burger" id="burger">
                     <div class="burger-line line-one"></div>
                     <div class="burger-line line-two"></div>
@@ -38,7 +40,7 @@
                     <h2 class="headers header-header-big">NOTHING WILL CHANGE UNLESS YOU DO</h2>
                     <h2 class="headers header-header-small">Don't Change The World, Change Yourself </h2>
                 </div>
-                <picture class="person-img">
+                <picture class="person-father">
                     <source srcset="img/person-dark.svg" media="(prefers-color-scheme:dark)">
                     <img src="img/person.svg" alt="me looking into the future">
                 </picture>
@@ -61,7 +63,7 @@
             </header>
         </section>
         <section class="about-me" id="about-me">
-            <picture class="devices-img">
+            <picture class="devices-father">
                 <source srcset="img/devices-dark.svg" media="(prefers-color-scheme: dark)">
                 <img src="img/devices.svg" alt="couple of devices">
             </picture>
@@ -111,6 +113,7 @@
                 </div>
             </div>
         </section>
+    <script src="code/theme-switcher.js"></script>    
     <script src="code/burger.js"></script>    
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
