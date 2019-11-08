@@ -76,6 +76,7 @@ nav{
 .logo>source{
     width:72px;
     margin: 0.8rem;
+    display:block;
 }
 
 .nav-list-father{
