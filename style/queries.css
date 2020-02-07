@@ -67,6 +67,11 @@
     .person-img{
         margin-top:0;
     }            
+    
+    .person-img>img{
+       width: 53%;
+    }            
+
 
     .devices-img>img{
         width: 60%;
