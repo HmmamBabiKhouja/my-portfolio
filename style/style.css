@@ -24,11 +24,9 @@ body{
 }
 
 :root{
-    --sunrise-red-dark:#ff6767;
-    --sunrise-red-light: #FF4545;
-    --body-dark:#232931;
+    --sunrise-red: #FF4545;
+    --body-dark:#262728;
     --white:#ffffff;
-    --white-dark:#eeeeee;
     --blue-berry: #141c3a;
 }
 
@@ -213,7 +211,7 @@ nav{
 }
 
 .about-me{
-    background-color:var(--sunrise-red-light);
+    background-color:var(--sunrise-red);
     color: var(--white);
     display: flex;
     flex-direction: column;
@@ -290,7 +288,7 @@ main{
     font-size: 3.6rem;
     margin: 0 auto;
     margin-bottom: 1.4rem;
-    color: var(--sunrise-red-light);
+    color: var(--sunrise-red);
 }
 
 .card-header{
@@ -303,7 +301,7 @@ main{
 }
 
 .visit-buttons{
-    background-color:var(--sunrise-red-light);
+    background-color:var(--sunrise-red);
     color: var(--white);
     text-decoration: none;
     font-size: 1.3rem;
