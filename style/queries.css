@@ -96,12 +96,13 @@
 
     .card:nth-child(3){
         border-radius: 0 0 0 6px;
+        box-shadow: 0 8px 6px -5px #e6ecf8;
     }
-
-    /* .card:nth-child(4){
+    
+    .card:nth-child(4){
         border-radius: 0 0 6px 0;
-        box-shadow: 0 15px 15px -5px #e6ecf8;
-    } */
+        box-shadow: 0 8px 6px -5px #e6ecf8;
+    } 
 
 }
 
@@ -163,19 +164,23 @@
     }
 
     .card:nth-child(1){
-        border-radius: 6px 0 0 6px;
-        box-shadow: 0 15px 15px -5px #e6ecf8;
+        border-radius: 6px 0 0 0;
     }
 
     .card:nth-child(2){
         border-radius: 0 0 0 0;
-        box-shadow: 0 15px 15px -5px #e6ecf8;
+        box-shadow: 0 8px 6px -5px #e6ecf8;
     }
 
     .card:nth-child(3){
-        border-radius: 0 6px 6px 0;
-        box-shadow: 0 15px 15px -5px #e6ecf8;
+        border-radius:0 6px 6px 0;
     }
+
+    .card:nth-child(4){
+        border-radius: 0 0 6px 6px;
+    }
+
+
 
     .card-icon{
         font-size: 3rem;

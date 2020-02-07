@@ -277,12 +277,12 @@ main{
     padding:2rem 3rem;
 }
 
-.card:nth-child(1){
+.card:first-child{
     border-radius: 6px 6px 0 0;
 }
 
-.card:nth-child(3){
-    box-shadow: 0 15px 15px -5px #e6ecf8;
+.card:last-child{
+    box-shadow: 0 8px 6px -5px #e6ecf8;
     border-radius: 0 0 6px 6px;
 }
 
