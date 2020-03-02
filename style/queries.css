@@ -29,7 +29,6 @@
         color: var(--white);
     }
 
-
     .card-icon{
         color:var(--sunrise-red);
     }
@@ -72,7 +71,6 @@
         width: 53%;
     }            
 
-
     .devices-img>img{
         width: 60%;
     }    
@@ -80,7 +78,6 @@
     .social-block{
         margin-top:1.4rem;
     }
-
 
     .eng-quran-verse,
     .ar-quran-verse{
@@ -184,13 +181,10 @@
         border-radius: 0 0 6px 0;
     }
 
-
-
     .card-icon{
         font-size: 3rem;
     }
 }
-
 
 @media only screen and (min-width:1365px){
     html{
@@ -205,5 +199,4 @@
         width: 35%;
     }  
     
-
 }
