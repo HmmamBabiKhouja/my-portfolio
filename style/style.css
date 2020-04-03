@@ -274,6 +274,10 @@ main{
     padding:2rem 3rem;
 }
 
+.card-block{
+    margin-bottom:auto ;
+}
+
 .card:first-child{
     border-radius: 6px 6px 0 0;
 }
