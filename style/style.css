@@ -27,6 +27,7 @@ body{
     --body-dark:#262728;
     --white:#ffffff;
     --blue-berry: #141c3a;
+    --light-gray:#e6ecf8;
 }
 
 .container {
@@ -269,7 +270,7 @@ main{
 .card{
     display: flex;
     flex-direction: column;
-    border: 0.5px solid #e6ecf8;
+    border: 0.5px solid var(--light-gray);
     text-align: center;
     padding:2rem 3rem;
 }
@@ -283,15 +284,17 @@ main{
 }
 
 .card:last-child{
-    box-shadow: 0 8px 6px -5px #e6ecf8;
+    box-shadow: 0 8px 6px -5px var(--light-gray);
     border-radius: 0 0 6px 6px;
 }
 
-.card-icon{
-    font-size: 3.6rem;
-    margin: 0 auto;
-    margin-bottom: 1.4rem;
-    color: var(--sunrise-red);
+.card-img{
+    width: 48px;
+    margin: 0 auto 1.4rem auto;
+}
+
+.card-img>img{
+    width: 100%;
 }
 
 .card-header{
