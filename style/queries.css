@@ -96,15 +96,15 @@
         border-radius: 0 6px 0 0;
     }
     
-    .card:nth-child(7) {
-        border-radius: 0 0 0 6px;
-        box-shadow: 0 8px 6px -5px var(--light-gray);
-    }
-    
-    .card:nth-child(8) {
+    .card:nth-child(6) {
         border-radius: 0 0 6px 0;
         box-shadow: 0 8px 6px -5px var(--light-gray);
     }
+    
+    .card:nth-child(7) {
+        border-radius: 0 0 0 6px;
+    }
+    
 }
 
 @media only screen and (min-width:1024px) {
@@ -177,6 +177,10 @@
         border-radius: 0 6px 0 0;
     }
 
+    .card:nth-child(5) {
+        box-shadow: 0 8px 6px -5px var(--light-gray);
+    }
+
     .card:nth-child(6) {
         border-radius: 0 0 6px 0;
         box-shadow: 0 8px 6px -5px var(--light-gray);
@@ -184,7 +188,6 @@
 
     .card:nth-child(7) {
         border-radius: 0 0 0 6px;
-        box-shadow: 0 8px 6px -5px var(--light-gray);
     }
 
     .card-icon {
